@@ -28,12 +28,12 @@ const CommentItem = props => {
          <li className = "comment-item">
              <div className = "comment-container">
                  <div className = {initialClassName}>
-                     <p className = "Initial">{initial}</p>
+                     <p className = "initial">{initial}</p>
                  </div>
              </div>
              <div className = "username-time-container">
                  <p className = "username">{name}</p>
-                 <p className = "time">{postedTime}</p>
+                 <p className = "time">{postedTime} ago</p>
              </div>
              <p className = "comment">{comment}</p>
              <div>
@@ -62,7 +62,7 @@ const CommentItem = props => {
                   />
                </button>
             </div>
-           <hr className = "comment=line"/>
+           <hr className = "comment-line"/>
          </li>
        )
     }

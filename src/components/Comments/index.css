@@ -98,7 +98,7 @@
 
 .comment-input {
   font-family: 'roboto';
-  font-szie: 16px;
+  font-size: 16px;
   border: 1px solid #cbd2d9;
   border-radius: 4px;
   padding-left: 16px;
@@ -140,29 +140,25 @@
   color: #475569;
   font-family: 'roboto';
   font-size: 14px;
-  font-weight: :500;
-  margin-left:8px;
+  font-weight: 500;
+  margin-left: 8px;
 }
 
 .comments-count {
-    text-align: center;
-    color:#ffffff;
-    background-color:#0284c7;
-    font-size:12px;
-    font-family:"roboto";
-    border-radius:4px;
-    padding-left:8px;
-    padding-top:4px;
-    padding-bottom:4px;
-    padding-right:8px;
-    margin-right:4px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #0284c7;
+  font-size: 12px;
+  font-family: 'roboto';
+  border-radius: 4px;
+  padding-left: 8px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-right: 8px;
+  margin-right: 4px;
 }
 
 .comments-list {
-    padding-left: 0;
-    margin-top:0;
-
+  padding-left: 0;
+  margin-top: 0;
 }
-
-
-
